@@ -5,7 +5,16 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "FinancialDbNet", "FinancialDbNet\FinancialDbNet.esproj", "{AB8F37B9-78CF-4E37-B01C-283597DD1630}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialDBCore", "FinancialDBCore\FinancialDBCore.csproj", "{786F2570-3A8F-44AB-8B01-F73BB1F166D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialDBCore", "FinancialDBCore\FinancialDBCore.csproj", "{786F2570-3A8F-44AB-8B01-F73BB1F166D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinncialDB.Data", "FinncialDB.Data\FinncialDB.Data.csproj", "{F3C56AA3-0B05-44B3-A9EB-E8C14E7619BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialDB.Domain", "FinancialDB.Domain\FinancialDB.Domain.csproj", "{48C1BA6B-4589-4BC1-847D-42E89B6B0607}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A6E11E34-C3F5-4C7F-B7D9-743EBC48AD90}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +32,14 @@ Global
 		{786F2570-3A8F-44AB-8B01-F73BB1F166D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{786F2570-3A8F-44AB-8B01-F73BB1F166D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{786F2570-3A8F-44AB-8B01-F73BB1F166D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C56AA3-0B05-44B3-A9EB-E8C14E7619BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C56AA3-0B05-44B3-A9EB-E8C14E7619BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C56AA3-0B05-44B3-A9EB-E8C14E7619BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C56AA3-0B05-44B3-A9EB-E8C14E7619BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C1BA6B-4589-4BC1-847D-42E89B6B0607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C1BA6B-4589-4BC1-847D-42E89B6B0607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C1BA6B-4589-4BC1-847D-42E89B6B0607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C1BA6B-4589-4BC1-847D-42E89B6B0607}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
