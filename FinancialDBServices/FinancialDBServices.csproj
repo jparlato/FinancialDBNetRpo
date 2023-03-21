@@ -21,4 +21,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FinancialDB.Domain\FinancialDB.Domain.csproj" />
+    <ProjectReference Include="..\FinancialDBModDtos\FinancialDBModDtos.csproj" />
+    <ProjectReference Include="..\FinncialDB.Data\FinncialDB.Data.csproj" />
+  </ItemGroup>
+
 </Project>

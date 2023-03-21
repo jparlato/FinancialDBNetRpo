@@ -53,4 +53,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FinancialDB.Domain\FinancialDB.Domain.csproj" />
+    <ProjectReference Include="..\FinancialDBServices\FinancialDBServices.csproj" />
+    <ProjectReference Include="..\FinncialDB.Data\FinncialDB.Data.csproj" />
+  </ItemGroup>
+
 </Project>
