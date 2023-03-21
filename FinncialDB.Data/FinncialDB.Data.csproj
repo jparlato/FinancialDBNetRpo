@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -30,6 +30,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FinancialDB.Domain\FinancialDB.Domain.csproj" />
+    <ProjectReference Include="..\FinancialDBCoreUtilities\FinancialDBCoreUtilities.csproj" />
+    <ProjectReference Include="..\FinancialDBModDtos\FinancialDBModDtos.csproj" />
   </ItemGroup>
 
 </Project>
